@@ -12,25 +12,25 @@ Make sure you have Docker installed on your system. You can download and install
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/react-vite-docker-app.git
+    git clone https://github.com/sujairam-dev/todolist.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd react-vite-docker-app
+    cd todolist
     ```
 
 3. Build the Docker image:
 
     ```bash
-    docker build -t react-vite-docker-app .
+    docker build -t todo-app .
     ```
 
 4. Run the Docker container:
 
     ```bash
-    docker run -it -p 3000:3000 react-vite-docker-app
+    docker run -d -p 3000:3000 todolist-docker-app
     ```
 
 5. Open your web browser and visit `http://localhost:3000` to view the running application.
